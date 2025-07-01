@@ -1,0 +1,148 @@
+(base) isacosta@MacBook-Air-de-Isabelle OpenNutriTracker % flutter drive --driver=test_driver/integration_test.dart --target=test/integration_test/weight_as_zero.dart
+Resolving dependencies... 
+Downloading packages... 
+  _fe_analyzer_shared 76.0.0 (85.0.0 available)
+  analyzer 6.11.0 (7.5.2 available)
+  app_links 6.3.3 (6.4.0 available)
+  archive 4.0.6 (4.0.7 available)
+  args 2.6.0 (2.7.0 available)
+  bloc 8.1.4 (9.0.0 available)
+  build 2.4.2 (2.5.4 available)
+  build_daemon 4.0.3 (4.0.4 available)
+  build_resolvers 2.4.3 (2.5.4 available)
+  build_runner 2.4.14 (2.5.4 available)
+  build_runner_core 8.0.0 (9.1.2 available)
+  built_value 8.9.3 (8.10.1 available)
+  characters 1.4.0 (1.4.1 available)
+  checked_yaml 2.0.3 (2.0.4 available)
+  dart_style 2.3.7 (3.1.0 available)
+  dots_indicator 2.1.2 (4.0.1 available)
+  envied 1.0.0 (1.1.1 available)
+  envied_generator 1.0.0 (1.1.1 available)
+  ffi 2.1.3 (2.1.4 available)
+  file_picker 10.1.2 (10.2.0 available)
+  flutter_bloc 8.1.6 (9.1.1 available)
+  flutter_launcher_icons 0.14.2 (0.14.4 available)
+  flutter_lints 5.0.0 (6.0.0 available)
+  flutter_plugin_android_lifecycle 2.0.27 (2.0.28 available)
+  flutter_secure_storage 9.2.3 (9.2.4 available)
+  flutter_secure_storage_linux 1.2.2 (2.0.1 available)
+  flutter_secure_storage_macos 3.1.3 (4.0.0 available)
+  flutter_secure_storage_platform_interface 1.1.2 (2.0.1 available)
+  flutter_secure_storage_web 1.2.1 (2.0.0 available)
+  flutter_secure_storage_windows 3.1.2 (4.0.0 available)
+  flutter_svg 2.0.16 (2.2.0 available)
+  functions_client 2.4.0 (2.4.3 available)
+  glob 2.1.2 (2.1.3 available)
+  gotrue 2.11.1 (2.13.0 available)
+  http 1.2.2 (1.4.0 available)
+  image 4.5.2 (4.5.4 available)
+  introduction_screen 3.1.14 (3.1.17 available)
+  js 0.6.7 (0.7.2 available)
+  json_serializable 6.9.0 (6.9.5 available)
+  leak_tracker 10.0.9 (11.0.1 available)
+  leak_tracker_flutter_testing 3.0.9 (3.0.10 available)
+  leak_tracker_testing 3.0.1 (3.0.2 available)
+  lints 5.1.1 (6.0.0 available)
+  material_color_utilities 0.11.1 (0.13.0 available)
+  meta 1.16.0 (1.17.0 available)
+  mobile_scanner 6.0.2 (7.0.1 available)
+  mockito 5.4.5 (5.4.6 available)
+  package_config 2.1.1 (2.2.0 available)
+  package_info_plus 8.1.2 (8.3.0 available)
+  package_info_plus_platform_interface 3.0.2 (3.2.0 available)
+  path_provider_android 2.2.15 (2.2.17 available)
+  percent_indicator 4.2.4 (4.2.5 available)
+  petitparser 6.0.2 (7.0.0 available)
+  posix 6.0.1 (6.0.3 available)
+  postgrest 2.4.1 (2.4.2 available)
+  process 5.0.3 (5.0.4 available)
+  provider 6.1.2 (6.1.5 available)
+  pub_semver 2.1.5 (2.2.0 available)
+  pubspec_parse 1.4.0 (1.5.0 available)
+  realtime_client 2.4.1 (2.5.1 available)
+  sentry 8.14.2 (9.1.0 available)
+  sentry_flutter 8.14.2 (9.1.0 available)
+  shared_preferences 2.3.5 (2.5.3 available)
+  shared_preferences_android 2.4.0 (2.4.10 available)
+  shared_preferences_web 2.4.2 (2.4.3 available)
+  shelf_web_socket 2.0.1 (3.0.0 available)
+  source_gen 1.5.0 (2.0.0 available)
+  sqflite 2.4.1 (2.4.2 available)
+  sqflite_android 2.4.0 (2.4.1 available)
+  sqflite_common 2.5.4+6 (2.5.5 available)
+  sqflite_darwin 2.4.1+1 (2.4.2 available)
+  storage_client 2.3.0 (2.4.0 available)
+  supabase 2.6.2 (2.8.0 available)
+  supabase_flutter 2.8.3 (2.9.1 available)
+  synchronized 3.3.0+3 (3.4.0 available)
+  test_api 0.7.4 (0.7.6 available)
+  url_launcher_android 6.3.14 (6.3.16 available)
+  url_launcher_ios 6.3.2 (6.3.3 available)
+  url_launcher_web 2.3.3 (2.4.1 available)
+  url_launcher_windows 3.1.3 (3.1.4 available)
+  vector_graphics 1.1.15 (1.1.19 available)
+  vector_graphics_codec 1.1.12 (1.1.13 available)
+  vector_graphics_compiler 1.1.16 (1.1.17 available)
+  vector_math 2.1.4 (2.2.0 available)
+  vm_service 15.0.0 (15.0.2 available)
+  watcher 1.1.1 (1.1.2 available)
+  web 1.1.0 (1.1.1 available)
+  web_socket 0.1.6 (1.0.1 available)
+  web_socket_channel 3.0.1 (3.0.3 available)
+  win32 5.10.0 (5.14.0 available)
+  xml 6.5.0 (6.6.0 available)
+  yet_another_json_isolate 2.0.3 (2.1.0 available)
+Got dependencies!
+92 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Connected devices:
+macOS (desktop) • macos  • darwin-arm64   • macOS 15.3.2 24D81 darwin-arm64
+Chrome (web)    • chrome • web-javascript • Google Chrome 136.0.7103.93
+
+No wireless devices were found.
+
+[1]: macOS (macos)
+[2]: Chrome (chrome)
+Please choose one (or "q" to quit): 2
+This application is not configured to build on the web.
+To add web support to a project, run `flutter create .`.
+Launching test/integration_test/weight_as_zero.dart on Chrome in debug mode...
+Waiting for connection from debug service on Chrome...             13.1s
+This app is linked to the debug service: ws://127.0.0.1:62689/FAXwVRNo210=/ws
+Debug service listening on ws://127.0.0.1:62689/FAXwVRNo210=/ws
+00:00 +0: Onboarding Policy Test Should not allow to proceed with weight as 0
+Got object store box in database configbox.
+Got object store box in database intakebox.
+Got object store box in database useractivitybox.
+Got object store box in database userbox.
+Got object store box in database trackeddaybox.
+CONFIG: supabase.supabase_flutter: Initialize Supabase v2.8.3
+CONFIG: supabase.auth: Initialize GoTrueClient v2.11.1 with url: PROJECT_URL/auth/v1, autoRefreshToken:
+true, flowType: AuthFlowType.pkce, tickDuration: 0:00:10.000000, tickThreshold: 3
+FINEST: supabase.auth: Initialize with headers: {X-Client-Info: supabase-flutter/2.8.3, apikey: ANON_KEY,
+Authorization: Bearer ANON_KEY}
+FINE: supabase.auth: Stopping auto refresh
+FINE: supabase.auth: Starting auto refresh
+CONFIG: supabase.postgrest: Initialize PostgrestClient with url: PROJECT_URL/rest/v1, schema: public
+FINEST: supabase.postgrest: Initialize with headers: {X-Client-Info: supabase-flutter/2.8.3}
+CONFIG: supabase.functions: Initialize FunctionsClient v2.4.0 with url: PROJECT_URL/functions/v1
+FINEST: supabase.functions: Initialize with headers: {X-Client-Info: supabase-flutter/2.8.3}
+CONFIG: supabase.storage: Initialize SupabaseStorageClient v2.3.0 with url: PROJECT_URL/storage/v1,
+retryAttempts: 0
+FINEST: supabase.storage: Initialize with headers: {X-Client-Info: supabase-flutter/2.8.3}
+CONFIG: supabase.realtime: Initialize RealtimeClient with endpoint: PROJECT_URL/realtime/v1, timeout:
+0:00:10.000000, heartbeatIntervalMs: 30000, longpollerTimeout: 20000, logLevel: null
+FINEST: supabase.realtime: Initialize with headers: {apikey: ANON_KEY, X-Client-Info:
+supabase-flutter/2.8.3}, params: {apikey: ANON_KEY}
+CONFIG: supabase.supabase: Initialize SupabaseClient v2.6.2 with no custom access token
+FINEST: supabase.auth: onAuthStateChange: AuthState{event: AuthChangeEvent.initialSession, session: null,
+fromBroadcast: false}
+FINE: supabase.supabase_flutter: Starting deeplink observer
+INFO: supabase.supabase_flutter: ***** Supabase init completed *****
+supabase.supabase_flutter: INFO: ***** Supabase init completed ***** 
+INFO: main: Starting App ...
+main: INFO: Starting App ... 
+00:17 +1: (tearDownAll)
+00:17 +2: All tests passed!
+^C%                     

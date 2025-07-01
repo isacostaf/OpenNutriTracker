@@ -183,6 +183,11 @@ class _OnboardingSecondPageBodyState extends State<OnboardingSecondPageBody> {
   String? validateWeight(String? value) {
     // if the user input is null, return the error message: Enter correct weight
     if (value == null) return S.of(context).onboardingWrongWeightLabel;
+
+    if(value == '0') {
+      return S.of(context).onboardingWrongWeightLabel;
+    }
+
     // if the user input is empty, return the error message: Enter correct weight
     // if the user input dont start with a number, return the error message: Enter correct weight
     if (value.isEmpty || !RegExp(r'^[0-9]').hasMatch(value)) {
