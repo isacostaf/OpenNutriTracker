@@ -10,7 +10,7 @@ void main() {
   app.main();
 
   group('Onboarding Policy Test', () {
-    testWidgets('Should require policy confirmation, then select gender and birthday',
+    testWidgets('Should not allow to proceed with weight as 0',
         (WidgetTester tester) async {
       // Wait for the app to settle after initial startup
       await tester.pumpAndSettle();
