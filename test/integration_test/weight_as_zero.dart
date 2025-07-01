@@ -22,17 +22,6 @@ void main() {
       final startButton = find.text('START');
       expect(startButton, findsOneWidget, reason: 'The Start button should be visible');
       
-      // Try to tap the start button without accepting policy
-      await tester.tap(startButton);
-      await tester.pumpAndSettle();
-      
-      // Add a delay to see the result of trying to proceed without accepting
-      await Future.delayed(const Duration(seconds: 1));
-
-      // Verify we are still on the first page
-      expect(find.text('Welcome to'), findsOneWidget, 
-          reason: 'We should stay on the first page because the policy was not accepted');
-
       // Find and tap the policy checkbox
       final policyCheckbox = find.byType(Checkbox).first;
       expect(startButton, findsOneWidget, reason: 'The policy button should be visible');
@@ -140,33 +129,22 @@ void main() {
       expect(weightInput, findsOneWidget, reason: 'Weight input text field should be visible');
 
       // Ensure the keyboard is shown and enter the text
-      await tester.enterText(weightInput, '60');
+      await tester.enterText(weightInput, '0');
       await tester.pumpAndSettle();
 
     ///// next
       await tester.tap(nextButton);
       await tester.pumpAndSettle();
 
-    ///// active sedentary field
-      final sedentaryField = find.text('Sedentary');
-      expect(sedentaryField, findsOneWidget, reason: 'sedentary field should be visible');
+      // Add a delay to see the result of trying to proceed without accepting
+      await Future.delayed(const Duration(seconds: 1)); 
 
-      await tester.tap(sedentaryField);
-      await tester.pumpAndSettle();
+      // Verify we are still on the first page
+      expect(find.text('Height'), findsOneWidget, 
+          reason: 'We should stay on the page because Weight as 0 is not a valid input');
 
-      await tester.tap(nextButton);
-      await tester.pumpAndSettle();
 
-      ///// goal lose weight field
-      final loseweightField = find.text('Lose Weight');
-      expect(loseweightField, findsOneWidget, reason: 'Lose Weight field should be visible');
-
-      await tester.tap(loseweightField);
-      await tester.pumpAndSettle();
-
-      await tester.tap(nextButton);
-      await tester.pumpAndSettle();
 
     });
   });
-} 2
+}
