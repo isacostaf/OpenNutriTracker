@@ -179,13 +179,18 @@ class _OnboardingSecondPageBodyState extends State<OnboardingSecondPageBody> {
     }
   }
 
+// receive the user input
   String? validateWeight(String? value) {
+    // if the user input is null, return the error message: Enter correct weight
     if (value == null) return S.of(context).onboardingWrongWeightLabel;
+    // if the user input is empty, return the error message: Enter correct weight
+    // if the user input dont start with a number, return the error message: Enter correct weight
     if (value.isEmpty || !RegExp(r'^[0-9]').hasMatch(value)) {
       return S.of(context).onboardingWrongHeightLabel;
     } else {
       return null;
     }
+    
   }
 
   /// Check if the input is correct and update the button content
